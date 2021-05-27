@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "CI=true build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "tailwind build src/styles/styles.css -o src/styles/main.css"
